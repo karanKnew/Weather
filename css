@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1267590537/vector/vector-bright-colorful-background-with-cute-weather-and-celestial-bodies-planet-rainbow-sun.jpg?s=2048x2048&w=is&k=20&c=Mqd9pcOoVjrmk3e9snAtlFaEht0Ley2WfTikXj_JidY=');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    background-color: rgba(236, 255, 253, 0.8); /* Semi-transparent red */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.moving-text {
+    display: inline-block;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+.weather-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 20px;
+}
+
+.location {
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.icon {
+    margin-top: 20px;
+}
